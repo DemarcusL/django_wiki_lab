@@ -13,8 +13,12 @@ html {
 
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
+  background-color: black;
 }
 
+p {
+  color: greenyellow; /* Margin bottom by footer height */
+}
 .container {
   max-width: 960px;
 }
