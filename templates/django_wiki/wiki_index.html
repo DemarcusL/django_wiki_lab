@@ -15,6 +15,13 @@
 {% endblock %}
 </head>
 <body>
-     <p> Django Template </p> 
+     <p> Django Wiki</p> 
+ {% if user.is_authenticated %}
+      {% block auth content %}
+
+      {% endblock %}
+        {% else %}
+            
+        {% endif %}
 </body>
 </html>
